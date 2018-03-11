@@ -2,19 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import NavBar from './navbar';
-import Body from './body';
-import Footer from './footer';
-
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<NavBar />,
-document.getElementById('nav'));
-ReactDOM.render(<Body />,
-document.getElementById('body'));
-ReactDOM.render(<Footer />,
-document.getElementById('footer'));
+import NavBar from './components/navbar';
+import Body from './components/body';
+import Footer from './components/footer';
 
 function Square(props) {
   return (
@@ -59,6 +49,7 @@ class Board extends React.Component {
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
+
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }

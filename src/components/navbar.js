@@ -1,6 +1,6 @@
 import React from 'react';
-import "./App.css";
-import ttt from './ttt.jpg';
+import "../App.css";
+import ttt from '../images/ttt.jpg';
 
 // require('bootstrap/dist/css/bootstrap.css');
 

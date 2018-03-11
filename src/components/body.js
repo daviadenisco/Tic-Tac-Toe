@@ -1,6 +1,5 @@
 import React from 'react';
-import "./App.css";
-import ttt from './ttt.jpg';
+import "../App.css";
 
 const Body = () =>
   <div id="body">

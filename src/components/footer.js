@@ -1,6 +1,6 @@
 import React from 'react';
-import "./App.css";
-import heart from './heart.jpg';
+import "../App.css";
+import heart from '../images/heart.jpg';
 
 // require('bootstrap/dist/css/bootstrap.css');
 

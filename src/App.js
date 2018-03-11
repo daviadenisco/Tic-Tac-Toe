@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import ttt from './ttt.jpg';
 import './App.css';
-import NavBar from './navbar';
-import Body from './body';
-import Footer from './footer';
+import NavBar from './components/navbar';
+import Body from './components/body';
+import Footer from './components/footer';
 
 
 // this tells React what we want to render
