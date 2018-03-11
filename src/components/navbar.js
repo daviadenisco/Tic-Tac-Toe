@@ -5,12 +5,16 @@ import ttt from '../images/ttt.jpg';
 // require('bootstrap/dist/css/bootstrap.css');
 
 const NavBar = () =>
-  <div className="App">
-    <header className="App-header">
-      <img src={ttt} className="App-logo" alt="ttt" />
-        <h1 className="App-title">Tic Tac Toe</h1>
-      </header>
-      <p className="App-intro"></p>
+<div id="nav">
+  <span>
+    <a id="back" href="http://www.daviadenisco.com/"> ← </a>
+    <img id="logo" src={ttt} className="logo" alt="ttt" />
+    <p id="right"></p>
+  </span>
+  <span>
+    <h1 id="title">Tic Tac Toe</h1>
+  </span>
 </div>
+
 
 export default NavBar;

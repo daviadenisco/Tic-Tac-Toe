@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import NavBar from './components/navbar';
-import Body from './components/body';
+// import Body from './components/body';
 import Footer from './components/footer';
 
 function Square(props) {
@@ -120,10 +119,6 @@ function calculateWinner(squares) {
 ReactDOM.render(
   <NavBar />,
   document.getElementById('nav')
-);
-ReactDOM.render(
-  <Body />,
-  document.getElementById('body')
 );
 ReactDOM.render(
   <Game />,
